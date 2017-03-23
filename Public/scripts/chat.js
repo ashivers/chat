@@ -8,7 +8,7 @@ function Chat(host) {
     };
 
 	chat.askUsername = function() {
-        name = prompt('Enter your TextCast UserName:');
+        name = prompt('Enter your UserName:');
 	chat.join(name);
     }
 	chat.askChatname = function() {
